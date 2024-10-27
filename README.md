@@ -35,12 +35,19 @@ Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımlar�
 ```bash
 ./minishell
 ("minishell$ " promptu görüntülenecektir. Sonrasında bash gibi kullanmaya devam edebilirsiniz.)
+```
 
 2. "echo, cd, pwd, export, unset, env, exit" builtinleri ele alınmıştır.
+   
    "ctrl-C, ctrl-D and ctrl-\" sinyalleri handle edilmiştir.
+   
    Redirectionlar (<, >, <<, >>) implement edilmiştir.
-   $, $?, ", ' ele alındı.
+   
+   "$, $?, ", ' " ele alındı.
+   
    pipe (|) ele alınmıştır.
+   
    working history mevcut.
+   
 
 Bunlara göre like bash olarak kullanılabilir.
